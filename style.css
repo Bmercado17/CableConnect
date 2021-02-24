@@ -1,0 +1,159 @@
+html,
+body,
+div,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font: inherit; */
+  vertical-align: baseline;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* changing color on breakpoints */
+@media only screen and (min-width: 450px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-image: url("http://cdn.lowgif.com/full/6a3f991749eaa181-particle-background-digital-firefly-marketing.gif");
+
+    /* background-color: rgba(158, 154, 154, 0.7); */
+  }
+}
+
+h2 {
+  color: rgba(202, 201, 199);
+  font-family: Roboto;
+  text-align: center;
+
+}
+
+.greeting {
+  width: 100%;
+  text-shadow: 4px 4px 3px rgb(110, 105, 105);
+  text-align: center;
+  margin-top: 15px;
+}
+
+img {
+  width: 350px;
+  height: 310px;
+  margin: 10px 10px;
+  padding: 3px;
+  border-radius: 3px;
+  border: 2px solid rgb(163, 160, 160);
+  box-shadow: 2px 2px 2px rgba(78, 83, 78, 0.7);
+  transition: all 0.4s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+p {
+  text-transform: initial;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.titulo_oferta {
+  display: flex;
+
+  margin-top: 40px;
+  text-align: center;
+  font-family: Roboto, sanserif;
+  justify-content: center;
+}
+
+.main {
+  /* flex: 1; */
+  background-color: rgba(202, 201, 199);
+  height: 550px;
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+ul {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+
+.titulo_oferta {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.ofertas {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.list-group-item {
+  background: rgba(202, 201, 199);
+  list-style: none;
+  border: 0 none;
+}
+
+p {
+  line-height: 25px;
+  font-size: 15px;
+  font-family: Roboto;
+  margin-left: 3.6%;
+  margin-right: 3.6%;
+  width: 100%;
+}
+
+b {
+  font-weight: 600;
+}
+
+strong {
+  border-bottom: 2px solid rgb(107, 104, 104);
+}
+
+/* .informacion:not(p) {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+} */
+h5 {
+  font-family: Roboto;
+  margin-left: 3.7%;
+  margin-right: 3.7%;
+}
+
+
+.list-group {
+  margin-left: 1.2%;
+}
+
+.list-group-item p {
+  margin-left: .5%;
+  margin-right: .5%;
+  width: 100%;
+}
