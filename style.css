@@ -38,7 +38,6 @@ h2 {
   color: rgba(202, 201, 199);
   font-family: Roboto;
   text-align: center;
-
 }
 
 .greeting {
@@ -82,7 +81,7 @@ p {
 .main {
   /* flex: 1; */
   background-color: rgba(202, 201, 199);
-  height: 550px;
+  height: 1000px;
   flex: 1;
   margin: 5px;
   padding: 10px;
@@ -147,13 +146,12 @@ h5 {
   margin-right: 3.7%;
 }
 
-
 .list-group {
   margin-left: 1.2%;
 }
 
 .list-group-item p {
-  margin-left: .5%;
-  margin-right: .5%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
   width: 100%;
 }
