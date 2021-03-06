@@ -83,7 +83,7 @@ p {
 .main {
   background-color: rgba(202, 201, 199);
 
-  margin: 8px;
+  margin: 8px 8px;
   padding: 10px;
 
   border-radius: 5px;
@@ -112,8 +112,8 @@ li {
 .ofertas {
   display: flex;
   flex-direction: column;
-  margin-left: 3.5%;
-  margin-right: 3.5%;
+  margin-left: 3.4%;
+  margin-right: 6.5%;
 }
 
 .list-group-item {
@@ -127,8 +127,8 @@ p {
   line-height: 25px;
   font-size: 15px;
   font-family: Roboto;
-  margin-left: 3.6%;
-  margin-right: 3.6%;
+  margin-left: 4.5%;
+  margin-right: 4.6%;
   width: 100%;
 }
 
